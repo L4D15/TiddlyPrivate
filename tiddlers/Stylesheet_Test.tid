@@ -1,0 +1,56 @@
+created: 20160829213905863
+modified: 20160829214558607
+tags: 
+title: Stylesheet Test
+type: text/vnd.tiddlywiki
+
+! Título 1
+
+!! Título 2
+
+!! Título 3
+
+!! Título 4
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet sem eu justo dapibus auctor. Vestibulum malesuada mi ipsum, a ''suscipit'' enim //suscipit// hendrerit. Maecenas id velit at augue pulvinar euismod. Fusce ~~vestibulum~~ tristique varius. Vivamus sed sapien eu sapien auctor rhoncus at vel mi. Nulla rhoncus `ipsum` sit amet aliquet condimentum. Etiam fringilla tellus et massa ultrices, vel facilisis enim viverra. Vestibulum in nulla tortor.
+
+---
+
+[[Index]]
+
+[[Non working link]]
+
+<<<
+This is a block quoted paragraph
+written in English
+<<<
+
+<<<
+Computers are like a bicycle for our minds
+<<< Steve Jobs
+
+```
+This will be monospaced
+```
+
+; Term being defined
+: Definition of that term
+; Another term
+: Another definition
+
+* First list item
+* Second list item
+** A subitem
+* Third list item
+
+# First list item
+# Second list item
+## A subitem
+# Third list item
+
+|myclass anotherClass|k
+|This is a caption |c
+|Cell1 |Cell2 |
+|Cell3 |Cell3 |
+|Header|Header|h
+|Footer|Footer|f

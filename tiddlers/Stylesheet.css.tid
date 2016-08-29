@@ -1,0 +1,160 @@
+created: 20160829213425406
+modified: 20160829213506696
+tags: $:/tags/Stylesheet
+title: Stylesheet
+type: text/css
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Titillium+Web';
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+body.tc-body {
+    background: #000 url("http://i.imgur.com/HAY4XIN.jpg") no-repeat top center;
+    color: #73b1cb;
+}
+
+div.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists, .tc-tiddler-frame {
+    background: url('http://i.imgur.com/auaVePJ.png') center center rgba(0, 6, 14, 0.6);
+    border: solid #0c67a1;
+    border-width: 1px 1px 1px;
+}
+
+p {
+    font-family: "Open Sans". sans-serif;
+    line-height: 20px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #42edf8;
+    line-height: 45px;
+    text-shadow: 0px 0px 30px #0070ca;
+}
+
+hr {
+    border-color: #0c67a1;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+blockquote p {
+    font-family: "Montserrat", serif;
+    color: #fdd68c;
+}
+
+blockquote {
+    position: relative;
+    left: -68px;
+    width: 110%;
+    padding: 6px 12px 6px 48px;
+    background-color: rgba(182, 142, 4, 0.15);
+    box-shadow: 0px 0px 30px rgba(182, 142, 4, 0.6);
+    border-left: solid 3px #d9cf98;
+}
+
+b, strong {
+    color: #5c463e;
+}
+
+a.tc-tiddlylink-resolves, button.tc-tiddlylink, a.tc-tiddlylink {
+    font-weight: bold;
+    color: #fdd68c;
+}
+
+a.tc-tiddlylink-missing {
+    color: #42edf8;
+    font-style: italic;
+}
+
+table {
+    border: none;
+}
+
+table thead tr td, table th {
+    height: 48px;
+    line-height: 60px;
+    font-size: 16px;
+    color: #00e7ff;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid #00e7ff;
+    border-bottom: 1px solid #1681a5;
+    text-shadow: 0 0 20px #09f;
+    background: url('http://i.imgur.com/4nEuhCF.png');
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(0,0,0,0.15);
+}
+
+table tr td {
+    border: none;
+    padding: 3px;
+}
+
+table tfoot {
+    background: url('http://i.imgur.com/4nEuhCF.png');
+    border-top: 1px solid #1681a5;
+    border-bottom: 1px solid #00e7ff;
+    font-weight: bold;
+}
+
+table tfoot tr td {
+    background: none;
+}
+
+pre, textarea, input, textarea, input[type=text], input[type=search], input[type=""], input:not([type]),
+.tc-tiddler-frame input.tc-edit-texteditor {
+    background: rgba(0,0,0,0.8) url('http://i.imgur.com/4nEuhCF.png');
+    border: solid 1px #1681a5;
+    color: #73b1cb;
+}
+
+pre {
+    padding: 12px;
+}
+
+pre code {
+    color: #0f0;
+    text-shadow: 0px 0px 8px #0f0;
+    background: none;
+}
+
+html button {
+    color: #42edf8;
+    fill: #42edf8;
+}
+
+html button:hover {
+    color: #fdd68c;
+    fill: #fdd68c;
+}
+
+.tc-add-tag-button button,.tc-edit button {
+    color: #42edf8;
+    padding: 3px 8px;
+    background: rgba(0,0,0,0.6);
+    border: solid 1px #1681a5;
+    border-radius: 3px;
+}
+
+.tc-add-tag-button button:hover {
+    color: #fdd68c;
+}
