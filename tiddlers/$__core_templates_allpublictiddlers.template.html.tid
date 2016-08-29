@@ -1,0 +1,13 @@
+created: 20160829202532380
+modified: 20160829202550228
+tags: 
+title: $:/core/templates/allpublictiddlers.template.html
+type: text/vnd.tiddlywiki
+
+<!-- This template is provided for backwards compatibility with older versions of TiddlyWiki -->
+
+<$set name="exportFilter" value="[!is[system]!tag[private]sort[title]]">
+
+{{$:/core/templates/exporters/StaticRiver}}
+
+</$set>

@@ -1,0 +1,10 @@
+created: 20160829202448226
+modified: 20160829202842315
+tags: 
+title: $:/core/save/public
+type: text/vnd.tiddlywiki
+
+\define saveTiddlerFilter()
+[is[tiddler]] -[prefix[$:/state/popup/]] -[[$:/HistoryList]] -[[$:/boot/boot.css]] -[type[application/javascript]library[yes]] -[[$:/boot/boot.js]] -[[$:/boot/bootprefix.js]] -[tag[Private]] +[sort[title]] $(publishFilter)$
+\end
+{{$:/core/templates/tiddlywiki5.html}}
